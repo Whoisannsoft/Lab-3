@@ -1,11 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
 body { 
+    padding: 0;
     background-image: url(Sanrio\ background.jpg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    min-width: 100px; 
 }
-.class_font {
-    color: red;
-    }
-    
-    #id_font {
-    color: blue;
-    }
+.box {
+    width: 200px;
+    height: 400px;
+    min-height: 100px;
+    background-color: white;
+    min-width: 200px;
+    min-height: 400;
+    border-radius: 4px; 
+    text-align: center;
+}
+h1 {
+    color: #0b1c3f;
+}
+  
+  .login-container {
+    margin-top: 30px; 
+  }
+.username-text {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
