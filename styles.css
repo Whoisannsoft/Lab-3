@@ -1,0 +1,11 @@
+body { 
+    background-image: url(Sanrio\ background.jpg);
+    background-size: cover;
+}
+.class_font {
+    color: red;
+    }
+    
+    #id_font {
+    color: blue;
+    }
