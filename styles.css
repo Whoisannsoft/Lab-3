@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    }
+    font-family: "Roboto", sans-serif;
+}
+    
 body { 
     padding: 0;
     background-image: url(Sanrio\ background.jpg);
@@ -13,25 +17,89 @@ body {
     height: 100vh;
     min-width: 100px; 
 }
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    color: #b3bdf6;
+}
 .box {
-    width: 200px;
-    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
     min-height: 100px;
     background-color: white;
     min-width: 200px;
-    min-height: 400;
-    border-radius: 4px; 
+    border-radius: 10px; 
     text-align: center;
 }
 h1 {
-    color: #0b1c3f;
+    color: #0b1934;
 }
-  
   .login-container {
     margin-top: 30px; 
   }
+  .icon-input {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #b3bdf6;
+}
+.icon{
+    border-radius: #989898;
+}
+.lock-input{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #b3bdf6;
+}
 .username-text {
     font-size: 10px;
     text-align: left;
     margin-left: 20px;
+}
+.social-media {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+}
+
+#login-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sign-up {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forgot-password {
+    color: pink ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
 }
