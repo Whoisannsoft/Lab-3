@@ -31,7 +31,7 @@ input {
     align-items: center;
     flex-direction: column;
     width: 300px;
-    height: 600px;
+    height: 500px;
     min-height: 100px;
     background-color: white;
     min-width: 200px;
@@ -65,8 +65,8 @@ h1 {
     margin-left: 20px;
 }
 .social-media {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
 }
 
 .icon {
@@ -76,15 +76,16 @@ h1 {
     margin-right: 10px;
 }
 
-#login-button {
-    width: 100%;
+#login-button{
+    width: 60%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: none;
     outline: none;
-    background-color: #000;
+    background-color: #524999;
     color: #fff;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 #sign-up {
@@ -93,13 +94,21 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #524999;
 }
 
-.forgot-password {
-    color: pink ;
-    margin-top: 10px;
+.link {
+    
     display: flex;
     justify-content: center;
     align-items: end;
     flex-direction: column;
+    font-size: 10px;
+}
+.enlace:link{
+    color: #d1ceea;
+    font-size: 10px;
+}
+#forgot-password {
+    color: #8e95c1;
 }
